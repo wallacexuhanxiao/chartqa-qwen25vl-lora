@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Large ML artifacts
+models/
+saves/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Full datasets / raw outputs
+/data/
+/logs/
+/outputs/
+*.jsonl
+!sample_data/*.jsonl
+
+# System
+.DS_Store
+._*
